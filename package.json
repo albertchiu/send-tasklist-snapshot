@@ -1,0 +1,16 @@
+{
+  "name": "send-tasklist-snapshot",
+  "version": "1.0.0",
+  "description": "send windows tasklist by email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CW",
+  "license": "MIT",
+  "dependencies": {
+    "iconv-lite": "^0.4.19",
+    "log": "^1.4.0",
+    "nodemailer": "^4.4.0"
+  }
+}

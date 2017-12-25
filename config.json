@@ -1,0 +1,68 @@
+{
+    "mail": {
+        "smtpHost": "192.168.0.1",
+        "smtpPort": "25"
+    },
+
+    "watchServers": [
+        {
+            "name": "Server2",
+            "ip": "192.168.0.2",
+            "username": "localhost\\administrator",
+            "password": "pass1",
+            "informRecipients": "test@test.com"
+        },
+        {
+            "name": "Server3",
+            "ip": "192.168.0.3",
+            "username": "localhost\\administrator",
+            "password": "pass2",
+            "informRecipients": "test@test.com"
+        },
+        {
+            "name": "Server4",
+            "ip": "192.168.0.4",
+            "username": "localhost\\administrator",
+            "password": "pass3",
+            "informRecipients": "test@test.com"
+        }
+    ],
+
+    "processDescription": {
+        "CNTAoSMgr.exe": "OfficeScan",
+        "PccNTMon.exe": "OfficeScan",
+        "NTRTScan.exe": "OfficeScan",
+        "TmListen.exe": "OfficeScan",
+        "conhost.exe": "Console Windows Host",
+        "csrss.exe": "Client Server Runtime Process",
+        "svchost.exe": "Host Process for Windows Services",
+        "taskhost.exe": "Host Process for Windows Tasks",
+        "taskmgr.exe": "Windows Task Manager",
+        "System Idle Process": "System Idle Process",
+        "System": "System",
+        "smss.exe": "Windows Session Manager",
+        "java.exe": "java",
+        "wininit.exe": "Windows Start-Up Application",
+        "vmtoolsd.exe": "VMware",
+        "VGAuthService.exe": "VMware",
+        "winlogon.exe": "Windows Logon Application",
+        "services.exe": "Service and Controller app",
+        "lsass.exe": "Local Security Authority Process",
+        "lsm.exe": "Local Session Manager Service",
+        "TrustedInstaller.exe": "Windows Modules Installer",
+        "spoolsv.exe": "Spooler SubSystem App",
+        "WmiPrvSE.exe": "WMI Provider Host",
+        "cmd.exe": "Windows Command",
+        "LogonUI.exe": "Windows Logon User Interface",
+        "winvnc.exe": "VNC",
+        "tomcat7.exe": "Tomcat 7",
+        "tomcat8.exe": "Tomcat 8",
+        "wuauclt.exe": "Windows Update",
+        "explorer.exe": "Windows Explorer",
+        "dwm.exe": "Desktop Window Manager",
+        "dllhost.exe": "COM surrogate",
+        "msdtc.exe": "Microsoft Distributed Transaction Coordinator Service",
+        "snmp.exe": "Microsoft SNMP Service",
+        "SMSvcHost.exe": ".NET Framework"
+    }
+}
